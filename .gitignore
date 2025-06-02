@@ -1,0 +1,34 @@
+# Scala specific
+.scala_dependencies/
+/.ensime*
+/.sbtserver/
+
+# IntelliJ specific
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+/build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*/tmp/
+*/logs/
+
+# Compiled files
+/bin/
+/target/
+/classes/
+/project/boot/
+/ivy2/cache/org.scala-sbt/
+.sbt/boot/
+
+# Eclipse specific
+.cacheMill/
+/.metals/
