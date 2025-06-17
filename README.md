@@ -21,7 +21,7 @@
 ### 3. Обновление координат вершин
 Каждая старая вершина заменяется на новую позицию по следующей формуле:
 
-$$\mathrm{new\_coords} = m_1 \cdot \mathrm{old\_coords} + m_2 \cdot \mathrm{avg\_face\_points} + m_3 \cdot \mathrm{avg\_mid\_edges}$$
+$$\mathrm{new\_coords} = m_{1} \cdot \mathrm{old\_coords} + m_{2} \cdot \mathrm{avg\_face\_points} + m_{3} \cdot \mathrm{avg\_mid\_edges}$$
 
 Где:
 - `old_coords` — исходная позиция вершины,
